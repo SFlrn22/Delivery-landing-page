@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+}
+
+.medium {
+    font-size: 25px;
+    margin-right: -5px;
+}
+
+.logo {
+    font-size: 35px;
+}
+
+.navbar {
+    background-color: rgb(187, 80, 41);
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav > ul > li {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.container {
+    padding: 15px 25px;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover {
+    border-bottom: 2px solid coral;
+}
+
+.hero-div { 
+    background-color: rgb(187, 80, 41);
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-left {
+    width: 35%;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.774);
+    margin-bottom: 10px;
+}
+
+.hero-left h3 {
+    font-size: 20px;
+    color: wheat;
+}
+
+.btn {
+    background-color: coral;
+    font-size: 20px;
+    color: aliceblue;
+    border:none;
+    padding: 7px;
+    margin-top: 15px;
+}    
+
+.hero-left .btn {
+    align-self: flex-start;
+}
+
+.hero-left .btn:hover {
+    background-color: rgb(138, 42, 8);
+}
+
+.hero-left .btn:active {
+    background-color: aliceblue;
+    transition: 0.2ms ease-in;
+}
+
+.hero-right img{
+    object-fit: cover;
+    height: 250px;
+}
+
+.infos {
+    flex-direction: column;
+    height: 50%;
+}
+
+.infos h1 {
+    padding: 50px 0;
+}
+
+.adv-card .info-pic img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid coral;
+    margin-left: 85px;
+}
+
+.adv-card {
+    justify-content: space-between;
+    flex: 1;
+    height: 85%;
+    align-self: center;
+}
+
+.centered {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.comment {
+    margin-top: 50px;
+    height: 40%;
+    background-color: rgb(173, 165, 165);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment h3 {
+    /* align-self: flex-end; */
+    margin-left: 55rem;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: rgb(187, 80, 41);
+    height: 50px;
+}
+
+
