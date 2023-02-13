@@ -123,6 +123,7 @@ li > a:hover {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 .cards > * {
@@ -141,7 +142,6 @@ li > a:hover {
     object-fit: cover;
     border: 5px solid #ff7f50;
 }
-
 
 .info-text {
     width: 80%;
@@ -206,7 +206,22 @@ li > a:hover {
 
 footer {
     background-color: #ec5822;
-    height: 50px;
+    height: 70px;
+    color: #F7DDD9;
 }
 
+footer a {
+    text-decoration: none;
+    color: #F7DDD9;
+    font-weight: bold;
+}
+
+footer p:nth-child(1) {
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
 
