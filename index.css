@@ -20,10 +20,11 @@ html, body {
 
 .logo {
     font-size: 35px;
+    color: #F7DDD9
 }
 
 .navbar {
-    background-color: rgb(187, 80, 41);
+    background-color: #ec5822;
 }
 
 nav > ul {
@@ -51,21 +52,21 @@ nav > ul > li {
 
 li > a {
     text-decoration: none;
-    color: black;
+    color: #F7DDD9;
 }
 
 li > a:hover {
-    border-bottom: 2px solid coral;
+    border-bottom: 2px solid wheat;
 }
 
 .hero-div { 
-    background-color: rgb(187, 80, 41);
+    background-color: #ec5822;
     height: 50%;
     display: flex;
     justify-content: space-evenly;
 }
 .hero-left {
-    width: 35%;
+    width: 25%;
     padding: 15px 15px;
     display: flex;
     flex-direction: column;
@@ -73,7 +74,7 @@ li > a:hover {
 
 .hero-left h1 {
     font-size: 50px;
-    color:rgba(0, 0, 0, 0.774);
+    color: #F7DDD9;
     margin-bottom: 10px;
 }
 
@@ -83,7 +84,7 @@ li > a:hover {
 }
 
 .btn {
-    background-color: coral;
+    background-color:#8a2a08;
     font-size: 20px;
     color: aliceblue;
     border:none;
@@ -96,11 +97,11 @@ li > a:hover {
 }
 
 .hero-left .btn:hover {
-    background-color: rgb(138, 42, 8);
+    background-color: #A7655E;
 }
 
 .hero-left .btn:active {
-    background-color: aliceblue;
+    background-color: rgb(214, 94, 25);
     transition: 0.2ms ease-in;
 }
 
@@ -111,31 +112,49 @@ li > a:hover {
 
 .infos {
     flex-direction: column;
-    height: 50%;
+    height: 60%;
 }
 
 .infos h1 {
     padding: 50px 0;
 }
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.cards > * {
+    flex: 1;
+}
+
+.cards .adv-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .adv-card .info-pic img {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border: 5px solid coral;
-    margin-left: 85px;
+    border: 5px solid #ff7f50;
 }
 
-.adv-card {
-    justify-content: space-between;
-    flex: 1;
-    height: 85%;
-    align-self: center;
+
+.info-text {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.info-text p {
+    font-size: small;
 }
 
 .centered {
     text-align: center;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 .comment {
@@ -149,13 +168,44 @@ li > a:hover {
 }
 
 .comment h3 {
-    /* align-self: flex-end; */
-    margin-left: 55rem;
-    margin-top: 1rem;
+    align-self: flex-end;
+}
+
+.sign-in-div{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    justify-content: center;
+}
+
+.sign-in-card {
+    display:flex;
+    align-self: center;
+    width: 60%;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#ff7f50;
+}
+
+.sign-in-card .btn:hover {
+    background-color: #A7655E;
+}
+
+.sign-in-card .btn:active {
+    background-color: rgb(214, 94, 25);
+    transition: 0.2ms ease-in;
+}
+
+.sign-p h2 {
+    color: #F7DDD9;
+}
+.sign-p p {
+    color: #F7DDD9;
 }
 
 footer {
-    background-color: rgb(187, 80, 41);
+    background-color: #ec5822;
     height: 50px;
 }
 
